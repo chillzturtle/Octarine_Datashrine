@@ -1,4 +1,14 @@
+
+html, body {
+  min-height: 200vh;
+  margin: 0;
+}
+
 body {
-    min-height: 200vh; /* This makes the page twice as long as the screen */
-    padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+#frame {
+  margin-top: auto; /* This pushes the ad to the bottom of the flex container */
 }
