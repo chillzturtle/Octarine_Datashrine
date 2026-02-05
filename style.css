@@ -1,3 +1,4 @@
 body {
     min-height: 200vh; /* This makes the page twice as long as the screen */
+    padding-bottom: 150px;
 }
